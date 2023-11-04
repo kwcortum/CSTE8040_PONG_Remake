@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Ball
+comment0.text=\n\ The\ Ball\ class\ represents\ a\ ball\ in\ the\ pong\ game.\ \ It\ also\ maintains\n\ the\ graphical\ information\ about\ the\ ball\ on\ a\ screen.\n\ \n\ @author\ Kenny\ Cortum\ with\ starter\ files\ from\ Dr.\ Dorn\n\ @version\ 08/03/2023\n
+comment1.params=s
+comment1.target=Ball(Screen)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Ball\n\ \n\ @param\ \ \ s\ \ \ The\ Screen\ on\ which\ to\ place\ this\ Ball\n
+comment2.params=
+comment2.target=void\ reset()
+comment2.text=\n\ Reset\ is\ a\ method\ that\ will\ cause\ this\ Ball\ to\ reset\ to\ its\ initial\n\ position\ on\ the\ screen.\ \ It\ will\ also\ be\ given\ a\ random\ trajectory.\n\ \n\ Added\ my\ own\ flare\ here\ to\ the\ vertical\ direction\ to\ create\ even\n\ more\ random\ trajectories.\n
+comment3.params=
+comment3.target=int\ move()
+comment3.text=\n\ This\ method\ causes\ the\ ball\ to\ "move"\ within\ a\ single\ timestep.\ \ That\ is,\ it\ \n\ is\ allowed\ to\ move\ a\ small\ distance\ vertically\ and/or\ horizontally\ from\ its\n\ current\ position\ according\ to\ it's\ current\ trajectory.\ \ Repeated\ calls\ to\ this\ method\n\ will\ simulate\ a\ smooth\ motion\ within\ the\ Screen.\ \ This\ method\ is\ also\ responsible\n\ for\ keeping\ the\ ball\ within\ the\ given\ Screen\ dimensions\ and\ allowing\ it\ to\ bounce\n\ off\ of\ the\ walls.\n\ \n\ @return\ \ The\ return\ value\ signifies\ whether\ or\ not\ the\ ball\ has\ hit\ the\ left\n\ \ \ \ \ \ \ \ \ \ or\ right\ walls\ as\ a\ result\ of\ this\ move---aka,\ a\ player\ has\ scored.\n\ \ \ \ \ \ \ \ \ \ The\ value\ will\ be\ -1\ if\ this\ ball\ hit\ the\ left\ wall,\ 1\ if\ it\ hit\ the\ \n\ \ \ \ \ \ \ \ \ \ right\ wall,\ and\ 0\ otherwise.\n
+comment4.params=
+comment4.target=void\ bounce()
+comment4.text=\n\ The\ bounce\ method\ causes\ this\ ball\ to\ react\ accordingly\ when\ it\ hits\ one\ of\ the\n\ paddles.\ \ Specifically,\ the\ horizontal\ trajectory\ will\ be\ reversed\ and\ the\ vertical\n\ trajectory\ will\ be\ randomly\ affected.\n
+comment5.params=
+comment5.target=int\ getX()
+comment5.text=\n\ Simple\ accessor\ for\ getting\ the\ center\ x\ coordinate\ of\ this\ Ball.\n\ \n\ @return\ \ the\ x\ coordinate\n
+comment6.params=
+comment6.target=int\ getY()
+comment6.text=\n\ Simple\ accessor\ for\ getting\ the\ center\ y\ coordinate\ of\ this\ Ball.\n\ \n\ @return\ \ the\ y\ cooridinate\n
+comment7.params=
+comment7.target=int\ getRadius()
+comment7.text=\n\ Simple\ accessor\ for\ getting\ the\ radius\ of\ this\ Ball\n\ \n\ @return\ \ the\ radius\n
+numComments=8

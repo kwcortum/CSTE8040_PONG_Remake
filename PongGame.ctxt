@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PongGame
+comment0.text=\n\ This\ class\ provides\ the\ main\ controller\ for\ a\ game\ of\ pong.\n\ \n\ @author\ Kenny\ Cortum\ with\ starter\ files\ from\ Dr.\ Dorn\n\ @version\ 08/03/2023\n
+comment1.params=
+comment1.target=PongGame()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ PongGame\n
+comment2.params=
+comment2.target=void\ play()
+comment2.text=\n\ The\ play\ method\ runs\ the\ main\ gameplay\ loop\ for\ this\ Pong\ game.\ \ It\ will\ \n\ continue\ simulating\ timesteps\ until\ a\ player\ has\ won,\ updating\ the\ game\n\ environment\ accordingly.\n
+numComments=3

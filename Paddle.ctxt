@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Paddle
+comment0.text=\n\ This\ class\ represents\ a\ paddle\ within\ a\ game\ of\ pong.\ \ The\ paddle\ is\ controlled\ by\ \n\ a\ user's\ input.\ \ Paddles\ can\ be\ used\ to\ block\ a\ ball\ from\ scoring.\n\ \n\ @author\ Kenny\ Cortum\ with\ starter\ code\ by\ Dr.\ Dorn\n\ @version\ 08/03/2023\n
+comment1.params=s\ left\ top
+comment1.target=Paddle(Screen,\ int,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Paddle\n\ \n\ @param\ \ \ s\ \ \ The\ Screen\ on\ which\ to\ place\ this\ paddle\n\ @param\ \ \ left\ \ \ \ The\ x-coordinate\ of\ the\ top-left\ corner\ of\ the\ new\ paddle\ on\ the\ Screen\n\ @param\ \ \ top\ \ \ \ \ The\ y-coordinate\ of\ the\ top-left\ corner\ of\ the\ new\ paddle\ on\ the\ Screen\n
+comment2.params=
+comment2.target=void\ up()
+comment2.text=\n\ The\ up\ method\ will\ cause\ this\ Paddle\ to\ move\ up\ on\ the\ screen\ by\ 20\ pixels.\n\ The\ method\ also\ prevents\ the\ Paddle\ from\ going\ off\ the\ screen\ at\ the\ top.\n
+comment3.params=
+comment3.target=void\ down()
+comment3.text=\n\ The\ down\ method\ will\ cause\ this\ Paddle\ to\ move\ down\ on\ the\ screen\ by\ 20\ pixels.\n\ The\ method\ also\ prevents\ the\ Paddle\ from\ going\ off\ the\ screen\ at\ the\ bottom.\n
+comment4.params=b
+comment4.target=boolean\ isTouching(Ball)
+comment4.text=\n\ isTouching\ is\ used\ to\ determine\ whether\ this\ Paddle\ is\ "touching"\ the\ Ball\n\ object\ specified\ in\ the\ parameter\ list.\n\ \n\ @param\ \ \ b\ \ \ The\ Ball\ to\ compare\n\ @return\ \ true\ if\ Ball\ b\ is\ directly\ adjacent\ to\ or\ partially\ overlapping\ this\ Paddle\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ in\ terms\ of\ their\ visible\ dimensions\ on\ screen\n\ \ \ \ \ \ \ \ \ \ false\ if\ Ball\ b\ is\ not\ adjacent\ to\ or\ overlapping\ this\ Paddle\n
+numComments=5

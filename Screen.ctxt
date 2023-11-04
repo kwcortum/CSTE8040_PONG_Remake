@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Screen
+comment1.params=
+comment1.target=Screen()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Screen\n
+comment2.params=player\ newScore
+comment2.target=void\ updateScore(int,\ int)
+comment2.text=\n\ Used\ to\ update\ a\ player's\ score\ label\ on\ the\ screen\n\ \n\ @param\ \ \ player\ \ \ \ \ \ which\ player\ to\ update,\ either\ 1\ or\ 2\n\ @param\ \ \ newScore\ \ \ \ the\ specified\ player's\ current\ score\ to\ be\ displayed\n
+comment3.params=
+comment3.target=csteutils.myro.MyroCanvas\ getCanvas()
+comment3.text=\n\ A\ simple\ accessor\ to\ retrieve\ the\ underlying\ canvas\ for\ this\ Screen\n\ \n\ @return\ \ the\ canvas\n
+comment4.params=
+comment4.target=int\ getWidth()
+comment4.text=\n\ A\ simple\ accessor\ to\ retrieve\ this\ Screen's\ width\n\ \n\ @return\ the\ width\ of\ the\ Screen\n
+comment5.params=
+comment5.target=int\ getHeight()
+comment5.text=\n\ A\ simple\ accessor\ to\ retrieve\ this\ Screen's\ height\n\ \n\ @return\ the\ height\ of\ the\ Screen\n
+comment6.params=message
+comment6.target=void\ gameOver(java.lang.String)
+comment6.text=\n\ The\ gameOver\ method\ provides\ a\ unique\ animation\ that\ should\ be\ displayed\n\ on\ the\ Screen\ at\ the\ end\ of\ the\ game\ (when\ a\ player\ won).\ The\ animation\n\ consists\ of\ three\ purple\ stars\ and\ "travelling"\ MyroText\ message.\n\ \n\ @param\ \ \ message\ \ \ \ \ A\ text\ message\ to\ be\ incorporated\ as\ part\ of\ the\ animation\ (e.g.,\ "Player\ 1\ Won\!")\n
+numComments=7
