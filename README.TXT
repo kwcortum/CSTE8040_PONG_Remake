@@ -1,12 +1,12 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
+The project is a PONG remake that uses CSTE Utils library from UNO.
+See UNO's website to download such files. The program used for these
+files was BlueJ.
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: Homework Week 7
+PURPOSE OF PROJECT: Recreate the game PONG
+VERSION or DATE: 07/21/2023
+HOW TO START THIS PROJECT: Download the CSTE UTILS library from UNO
+AUTHORS: Kenneth Cortum with starter files from UNO
+USER INSTRUCTIONS: See comments in code for instructions.
